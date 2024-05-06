@@ -1,4 +1,4 @@
-package ma.enset.ebankingbackend.entities;
+package ma.enset.ebankingbackend.enums;
 
 public enum AccountStatus {
     CREATED,ACTIVATED,SUSPENDED
