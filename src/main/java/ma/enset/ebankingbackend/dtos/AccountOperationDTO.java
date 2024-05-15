@@ -1,7 +1,7 @@
 package ma.enset.ebankingbackend.dtos;
 
 import lombok.Data;
-import org.example.backendbanking.enums.OperationType;
+import ma.enset.ebankingbackend.enums.OperationType;
 
 import java.util.Date;
 
