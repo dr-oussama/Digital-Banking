@@ -5,14 +5,10 @@ import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.experimental.SuperBuilder;
 
-@Data
 @Entity
-@AllArgsConstructor
-@NoArgsConstructor
-@SuperBuilder
-@DiscriminatorValue("SA")
+@DiscriminatorValue("SC")
+@Data @NoArgsConstructor @AllArgsConstructor
 public class SavingAccount extends BankAccount{
-    private double rate;
+    private double interestRate;
 }
